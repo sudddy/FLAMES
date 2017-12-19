@@ -23,7 +23,7 @@ else
 function compareA(a,b,c)
 {
 	let alen=a.length;
-    let blen=b.length;
+        let blen=b.length;
 	for(i=0; i< alen; i++)
 	{
 		for(j=0; j< blen ; j++)
@@ -48,7 +48,7 @@ function result(n,flames)
 
 	var j=0;
 	temp=n;
-    var arrSize=flames.length;
+        var arrSize=flames.length;
 	for(i=0; i < 5;  i++)
 	{
 		n=temp;

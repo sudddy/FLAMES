@@ -4,7 +4,7 @@
 var a='inputone';
 var b='inputtwo';
 var c='FLAMES';
-flames=c.split("");
+var flames=c.split("");
 var aArray=a.split("");
 var bArray=b.split("");
 var length= aArray.length + bArray.length;
@@ -32,7 +32,7 @@ function compareA(a,b,c)
 			{
 				b.splice(j,1);
 				length-=2;
-                break;
+               		         break;
 			}	
 				
 		}
@@ -46,9 +46,9 @@ function compareA(a,b,c)
 function result(n,flames)
 {	
 
-	var j=0;
+	let j=0;
 	temp=n;
-        var arrSize=flames.length;
+        let arrSize=flames.length;
 	for(i=0; i < 5;  i++)
 	{
 		n=temp;
